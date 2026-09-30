@@ -1,0 +1,5 @@
+# 阻斷 PHP 腳本在 storage/uploads/ 目錄下直接執行 (資安防禦 M05-02)
+<FilesMatch "\.(php|php5|php7|phtml|pl|py|cgi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,24 @@
+# Local credentials and environment overrides
+.env
+.env.*
+.deploy_askpass.cmd
+.deploy_*.py
+
+# Internal deployment and verification utilities
+test_system.php
+comprehensive_role_test.php
+extracted_spec.txt
+database/seed.sql
+
+# Runtime-generated files
+__pycache__/
+*.py[cod]
+storage/*.key
+storage/logs/
+storage/cache/
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
